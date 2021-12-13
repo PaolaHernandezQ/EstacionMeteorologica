@@ -1,0 +1,51 @@
+body {
+    height: 500px;
+    background-image: url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.elagoradiario.com/wp-content/uploads/2021/11/cooperaci%C3%B3n-meteorlogica-1140x600.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Vista_Principal {
+    width: 450px;                                 /*Tamaño de la división, en ancho*/
+    background-color: rgba(66, 65, 63, 0.7);    /*Color de fondo del contenedor Div*/
+    margin: 0 auto;                               /*Centra el contenedor Div*/
+    border-radius: 20px;                          /*Los bordes de la división Div son curvos*/
+    color: rgb(255, 255, 255);                  /*Color del texto dentro del contenedor Div*/
+    text-align: center;                           /*Centra el texto dentro del contenedor Div*/
+}
+.Pag_AboutUs{
+    color:rgb(255, 255, 255);
+    font-size:0.4cm;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Def_Temperatura{
+    position: fixed;                              /*El elemento se remueve del flujo normal y se posiciona el lo especificado acontinuación*/
+    top: 260px;                                   /*Posición vertical*/
+    left: 60px;                                   /*Posición horizontal*/
+    height: 260px;                                /*Tamaño de la división, en altura*/
+    width: 350px;                                 /*Tamaño de la división, en ancho*/
+    text-align:center;                            /*El texto se alinea a la izquierda del contenedor Div*/
+    background-color: rgba(66, 65, 63, 0.8);    /*Color de fondo del contenedor Div*/
+}
+.Def_Humedad{
+    position: fixed;                              /*El elemento se remueve del flujo normal y se posiciona el lo especificado acontinuación*/
+    top: 260px;                                   /*Posición vertical*/
+    left: 460px;                                  /*Posición horizontal*/
+    height: 260px;                                /*Tamaño de la división, en altura*/
+    width: 350px;                                 /*Tamaño de la división, en ancho*/
+    text-align:center;                            /*El texto se alinea a la izquierda del contenedor Div*/
+    background-color: rgba(66, 65, 63, 0.8);    /*Color de fondo del contenedor Div*/
+}
+.Def_Luminosidad{
+    position: fixed;                              /*El elemento se remueve del flujo normal y se posiciona el lo especificado acontinuación*/
+    top: 260px;                                   /*Posición vertical*/
+    left: 860px;                                  /*Posición horizontal*/
+    height: 260px;                                /*Tamaño de la división, en altura*/
+    width: 350px;                                 /*Tamaño de la división, en ancho*/
+    text-align:center;                            /*El texto se alinea a la izquierda del contenedor Div*/
+    background-color: rgba(66, 65, 63, 0.8);    /*Color de fondo del contenedor Div*/
+}
+a{
+    color:white;                                /*A los textos que contiene los enlaces se les asigna un color*/
+}
