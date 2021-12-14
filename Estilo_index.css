@@ -1,53 +1,48 @@
-body {
-    height: 500px;
-    background-image: url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.elagoradiario.com/wp-content/uploads/2021/11/cooperaci%C3%B3n-meteorlogica-1140x600.jpg");
+body{
+    background: url("https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.elagoradiario.com/wp-content/uploads/2021/11/cooperaci%C3%B3n-meteorlogica-1140x600.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    }
 .Vista_Principal {
-    width: 450px;                                 /*Tamaño de la división, en ancho*/
+    width: 30%;                                   /*Tamaño de la división, en ancho*/
     background-color: rgba(66, 65, 63, 0.7);    /*Color de fondo del contenedor Div*/
     margin: 0 auto;                               /*Centra el contenedor Div*/
     border-radius: 20px;                          /*Los bordes de la división Div son curvos*/
     color: rgb(255, 255, 255);                  /*Color del texto dentro del contenedor Div*/
     text-align: center;                           /*Centra el texto dentro del contenedor Div*/
-}
+    }
 .About_Us {
-    position: fixed;                              /*El elemento se remueve del flujo normal y se posiciona el lo especificado acontinuación*/
-    top: 220px;                                   /*Posición vertical*/
-    left: 200px;                                  /*Posición horizontal*/
-    height: 200px;                                /*Tamaño de la división, en altura*/
-    width: 200px;                                 /*Tamaño de la división, en ancho*/
+    position: fixed;                              /*El elemento se remueve del flujo normal y se posiciona según lo especificado acontinuación*/
+    top: 35%;                                     /*Posición vertical*/
+    left: 15%;                                    /*Posición horizontal*/
+    padding: 1.5% 3.5%;                           /*Este es el espacio de relleno al rededor de los elementos Div, el primero aplica arriba y abajo, y el segundo a derecha e izquierda*/
     border-radius: 20px;                          /*Los bordes de la división Div son curvos*/
     box-shadow: 5px 5px rgb(66, 65, 63, 0.8);   /*La división Div tiene un borde*/ 
     color: rgb(255, 255, 255);                  /*Color del texto dentro del contenedor Div*/
     background-color: rgba(66, 65, 63, 0.5);    /*Color de fondo del contenedor Div*/
     text-align: center;                           /*Centra el texto dentro del contenedor Div*/
-}
+    }
 .Estadisticas {
-    position: fixed;                              /*El elemento se remueve del flujo normal y se posiciona el lo especificado acontinuación*/
-    top: 220px;                                   /*Posición vertical*/
-    left: 550px;                                  /*Posición horizontal*/
-    height: 200px;                                /*Tamaño de la división, en altura*/
-    width: 200px;                                 /*Tamaño de la división, en ancho*/
+    position: fixed;                              /*El elemento se remueve del flujo normal y se posiciona según lo especificado acontinuación*/
+    top: 35%;                                     /*Posición vertical*/
+    left: 42%;                                    /*Posición horizontal*/
+    padding: 1.5% 3.5%;                           /*Este es el espacio de relleno al rededor de los elementos Div, el primero aplica arriba y abajo, y el segundo a derecha e izquierda*/
     border-radius: 20px;                          /*Los bordes de la división Div son curvos*/
     box-shadow: 5px 5px rgb(66, 65, 63, 0.8);   /*La división Div tiene un borde*/ 
     color: rgb(255, 255, 255);                  /*Color del texto dentro del contenedor Div*/
     background-color: rgba(66, 65, 63, 0.5);    /*Color de fondo del contenedor Div*/
     text-align: center;                           /*Centra el texto dentro del contenedor Div*/
-}
+    }
 .Reportes {
-    position: fixed;                              /*El elemento se remueve del flujo normal y se posiciona el lo especificado acontinuación*/
-    top: 220px;                                   /*Posición vertical*/
-    left: 900px;                                  /*Posición horizontal*/
-    display: inline-block;                        /*Visualización alineada al resto de elementos*/
-    height: 200px;                                /*Tamaño de la división, en altura*/
-    width: 200px;                                 /*Tamaño de la división, en ancho*/
+    position: fixed;                              /*El elemento se remueve del flujo normal y se posiciona según lo especificado acontinuación*/
+    top: 35%;                                     /*Posición vertical*/
+    left: 69%;                                    /*Posición horizontal*/
+    padding: 1.5% 3.5%;                           /*Este es el espacio de relleno al rededor de los elementos Div, el primero aplica arriba y abajo, y el segundo a derecha e izquierda*/
     border-radius: 20px;                          /*Los bordes del contenedor Div son curvos*/
     box-shadow: 5px 5px rgb(66, 65, 63, 0.8);   /*La división Div tiene un borde*/       
     color: rgb(255, 255, 255);                  /*Color del texto dentro del contenedor Div*/
     background-color: rgba(66, 65, 63, 0.5);    /*Color de fondo del contenedor Div*/
     text-align: center;                           /*Centra el texto dentro del contenedor Div*/
-}
+    }
